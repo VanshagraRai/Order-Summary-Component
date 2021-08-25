@@ -1,0 +1,133 @@
+/*Variables*/
+:root {
+  --white: #ffff;
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 450px;
+  margin: auto;
+  height: 651px;
+  font-family: "Red Hat Display", sans-serif;
+  background: var(--white);
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 23px;
+  overflow: hidden;
+}
+/* Background image */
+.container::before {
+  content: "";
+  background: url("/images/pattern-background-desktop.svg") no-repeat center
+    center/cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+/* Main body */
+
+.written {
+  line-height: 1.8;
+  text-align: center;
+  padding-left: 95px;
+  padding-right: 89px;
+}
+h2 {
+  margin-top: 25px;
+  margin-bottom: 8px;
+  font-weight: bolder;
+}
+#written-content {
+  color: var(--Desaturated-blue);
+  font-weight: 700;
+}
+/*Section Part*/
+
+.section {
+  width: 303px;
+  height: 58px;
+  margin: auto;
+  margin-top: 36px;
+  padding-top: 14px;
+  padding-left: 19px;
+  border-radius: 19px;
+  background: var(--Very-pale-blue);
+}
+
+h4 {
+  position: relative;
+  left: 60px;
+  bottom: 55px;
+}
+#icon {
+  position: relative;
+  top: -7px;
+}
+#cost {
+  position: relative;
+  bottom: 55px;
+  left: 59px;
+  color: var(--Desaturated-blue);
+  font-weight: 700;
+}
+.link {
+  position: relative;
+  bottom: 95px;
+  left: 214px;
+}
+
+/*Buttons */
+
+.payment {
+  position: relative;
+  top: 49px;
+  left: 50px;
+  padding: 11px 5px;
+  width: 345px;
+  background-color: var(--Bright-blue);
+  color: var(--Pale-blue);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.payment:hover {
+  background-color: var(--Dark-blue);
+}
+.cancel {
+  position: relative;
+  top: 95px;
+  right: 177.6px;
+  border: none;
+  background: var(--white);
+  color: #7280a7;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.cancel:hover {
+  color: rgb(34, 53, 116);
+}
+
+/*JavaScript added classes*/
+.paymentPage {
+  text-align: center;
+  margin-top: 91px;
+}
+.cancelPage {
+  text-align: center;
+  padding: 56px;
+}
