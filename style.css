@@ -25,7 +25,7 @@
 /* Background image */
 .container::before {
   content: "";
-  background: url("/images/pattern-background-desktop.svg") no-repeat center
+  background: url("./images/pattern-background-desktop.svg") no-repeat center
     center/cover;
   position: absolute;
   top: 0px;
