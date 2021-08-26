@@ -5,11 +5,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
- - [Links](#links)
-- [Built with](#built-with)
-   
-  -  [Author](#author)
+-[The challenge](#the-challenge)
+-[Links](#links)
+-[Built with](#built-with)
+-[Any Important notes](#importan notes)
 - 
 
 ## Overview
@@ -33,3 +32,4 @@ Users should be able to:
 
 -  HTML
 - CSS custom properties- JavaScript
+-###Important notes - Not any as of now.
